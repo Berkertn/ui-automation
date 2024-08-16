@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Automation WIP Suites" parallel="false" thread-count="1">
+
+    <parameter name="baseURL" value="https://obss.tech/en/"/>
+    <parameter name="headless" value="false"/>
+
+    <test name="Edge Tests">
+        <parameter name="browser" value="edge"/>
+        <packages>
+            <package name="ui.tests.*"/>
+        </packages>
+    </test>
+</suite>

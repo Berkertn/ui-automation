@@ -1,0 +1,6 @@
+screen-shots:
+  #screenshotDir: src/test/resources/screenshots/
+  screenshotDir: test-output/screenshots/
+  ss_extension: .png
+
+baseURL: http://the-internet.herokuapp.com/
